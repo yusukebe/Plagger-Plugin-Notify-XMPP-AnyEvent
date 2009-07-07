@@ -1,0 +1,27 @@
+This is Perl module Plagger::Plugin::Notify::XMPP::AnyEvent.
+
+INSTALLATION
+
+Plagger::Plugin::Notify::XMPP::AnyEvent installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan Plagger::Plugin::Notify::XMPP::AnyEvent
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+Plagger::Plugin::Notify::XMPP::AnyEvent documentation is available as in POD. So you can do:
+
+    % perldoc Plagger::Plugin::Notify::XMPP::AnyEvent
+
+to read the documentation online with your favorite pager.
+
+Yusuke Wada

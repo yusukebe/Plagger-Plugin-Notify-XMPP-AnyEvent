@@ -1,0 +1,19 @@
+global:
+  plugin_path:
+    - ./lib/Plagger/Plugin
+
+plugins:
+  - module: Subscription::Config
+    config:
+      feed:
+         - url: http://yusukebe.com/index.xml
+
+  - module: Notify::XMPP::AnyEvent
+    config:
+      jid: waditbot@gmail.com
+      password: base64::d2FkaXQyMDA5
+      server_host: talk.google.com
+      server_port: 5222
+      to:
+        - yusukebe@gmail.com
+
