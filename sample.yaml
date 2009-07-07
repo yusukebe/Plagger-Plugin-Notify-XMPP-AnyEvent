@@ -10,10 +10,10 @@ plugins:
 
   - module: Notify::XMPP::AnyEvent
     config:
-      jid: waditbot@gmail.com
-      password: base64::d2FkaXQyMDA5
+      jid: youraddress@gmail.com
+      password: yourpassword
       server_host: talk.google.com
       server_port: 5222
       to:
-        - yusukebe@gmail.com
+        - yourfriends@gmail.com
 
