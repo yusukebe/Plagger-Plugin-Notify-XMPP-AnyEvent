@@ -1,4 +1,5 @@
 global:
+  assets_path: ./assets
   plugin_path:
     - ./lib/Plagger/Plugin
 
